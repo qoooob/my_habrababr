@@ -1,0 +1,65 @@
+<h2> <%= @post.title %></h2>
+
+<h5>
+  <strong>Категории:</strong>
+  <%= render @post.categories %>
+</h5>
+
+<% if @post.user.present? %>
+    <h5>
+    <strong>Автор:</strong>
+    <%= @post.user.email %>
+    </h5>
+<% end %>
+
+<p>
+  <%= @post.body %>
+</p>
+
+
+
+<% unless @post.comments.empty? %>
+    <strong><%= 'Комментарии ('+@post.comments.count.to_s+')'%></strong>
+    <% @post.comments.each do |comment| %>
+            <p><%= comment.body %></p>
+        <% if comment.user.present? %>
+            <p>
+              <strong>Автор:</strong>
+              <%= comment.user.email %>
+            </p>
+        <% end %>
+        <% if user_signed_in? && (current_user.author_of?(comment) || current_user.admin?) %>
+            <ul>
+            <%= link_to t('common.delete'), comment, method: :delete, data: {confirm: 'Точно удаляем?'} %>
+            <%= link_to t('common.edit'), edit_comment_path(comment) %>
+            </ul>
+        <% end %>
+    <% end %>
+    <strong>Новый комментарий:</strong>
+<% else %>
+    <strong>Комментариев нет. Оставьте комментарий первым.</strong>
+    <br>
+<% end %>
+
+<%= render 'comments/form' %>
+
+<% if user_signed_in? %>
+    <% if current_user.author_of?(@post) || current_user.admin? %>
+        <% if @post.published? %>
+            <%= link_to t('.hide'), hide_post_path(@post), method: :patch %> |
+            <% else %>
+            <%= link_to t('.publish'), publish_post_path(@post), method: :patch %> |
+        <% end %>
+        <%= link_to t('common.edit'), edit_post_path(@post) %> |
+        <%= link_to t('common.delete'), @post, method: :delete, data: {confirm: 'Точно удаляем?'} %> |
+    <% end %>
+
+    <td>
+        <% if current_user.subscribed_to?(@post) %>
+            <%= link_to t('.subscribe'), current_user.subscription_for(@post), method: :delete %> |
+        <% else %>
+            <%= link_to t('.unsubscribe'), post_subscriptions_path(@post), method: :post %> |
+        <% end %>
+    </td>
+<% end %>
+<%= link_to t('common.root'), posts_path %>

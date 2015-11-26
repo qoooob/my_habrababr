@@ -1,0 +1,10 @@
+<p>
+  <strong>Категории:</strong>
+  <%= @categories.name %>
+</p>
+
+<%= render @posts %>
+
+<% if current_user && current_user.admin? %>
+    <%= link_to  'Все категории', admin_categories_path %>
+<% end %>

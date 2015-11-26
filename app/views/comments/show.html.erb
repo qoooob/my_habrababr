@@ -1,0 +1,9 @@
+
+<p>
+  <strong></strong>
+  <%= @comment.body %>
+</p>
+<% if user_signed_in? && (current_user.author_of?(@comment) || current_user.admin?) %>
+<%= link_to t('common.edit'), edit_comment_path(@comment) %> |
+<%= link_to t('common.back'), @comment.post %>
+<% end %>

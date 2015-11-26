@@ -1,0 +1,14 @@
+ru:
+  activerecord:
+    models:
+      post: "Публикация"
+      comment: "Коментарий"
+    attributes:
+      post:
+        title: "Заголовок"
+        body: "Содержание"
+      comment:
+        body: "Комментарий"
+    errors:
+      messages:
+        blank: 'не может быть пустым'

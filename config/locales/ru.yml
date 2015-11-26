@@ -1,0 +1,46 @@
+ru:
+  common:
+    back: 'Назад'
+    edit: 'Изменить'
+    delete: 'Удалить'
+    create: 'Создать'
+    update: 'Изменить'
+    show: "Показать"
+    root: "К списку постов"
+  posts:
+    index:
+      title: 'Привет, habrababr!'
+      newpost: "НОВЫЙ ПОСТ"
+      draft: "ЧЕРНОВИКИ"
+    form:
+      submit: '%{action} публикацию'
+    show:
+      hide: "Отправить в Черновики"
+      publish: "Опубликовать"
+      subscribe: "Подписаться"
+      unsubscribe: "Отписаться"
+    new:
+      title: "Новый пост"
+    edit:
+      title: "Изменение поста"
+    unpublished:
+      newpost: "НОВЫЙ ПОСТ"
+      root: "СПИСОК ПОСТОВ"
+  comments:
+    new:
+      title: "Новый комментарий"
+    edit:
+      title: "Редактировать комментарий"
+    form:
+      submit: "Создать комментарий"
+  admin:
+    categories:
+      new:
+        title: "Новая категория"
+      index:
+        title: "Категории"
+        newcategory: "Новая категория"
+      edit:
+        title: "Редактирование категорий"
+      form:
+        submit: "Сохранить"

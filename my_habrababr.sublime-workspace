@@ -1,0 +1,614 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"container"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"nav",
+				"navbar	(testpage2.html)"
+			],
+			[
+				"the",
+				"thead	Tag"
+			],
+			[
+				"instance_",
+				"instance_variable_get	(modul.rb)"
+			],
+			[
+				"mod",
+				"mod	module .. module_function .. end"
+			],
+			[
+				"valid",
+				"validate"
+			],
+			[
+				"che",
+				"check_list"
+			],
+			[
+				"nam",
+				"name	(station.rb)"
+			],
+			[
+				"ex",
+				"extend	(modul.rb)"
+			],
+			[
+				"attr_",
+				"attr_class"
+			],
+			[
+				"Ar",
+				"ArgumentError	(station.rb)"
+			],
+			[
+				"in",
+				"include	(station.rb)"
+			],
+			[
+				"a",
+				"attribute"
+			],
+			[
+				"insta",
+				"instance_variable_set"
+			],
+			[
+				"attr",
+				"attribute"
+			],
+			[
+				"ins",
+				"instance_variable_get"
+			],
+			[
+				"attre",
+				"attributes"
+			],
+			[
+				"line",
+				"line_num"
+			],
+			[
+				"stat",
+				"stations"
+			],
+			[
+				"cargo",
+				"cargo	(train.rb)"
+			],
+			[
+				"Sta",
+				"StationError"
+			],
+			[
+				"al",
+				"already	(station.rb)"
+			],
+			[
+				"Stat",
+				"StationError	(train.rb)"
+			],
+			[
+				"pr",
+				"protected	(train.rb)"
+			],
+			[
+				"re",
+				"rescue"
+			],
+			[
+				"be",
+				"begin"
+			],
+			[
+				"A",
+				"ArgumentError"
+			],
+			[
+				"att",
+				"attempt"
+			],
+			[
+				"ra",
+				"raise"
+			],
+			[
+				"st",
+				"station"
+			],
+			[
+				"station",
+				"station"
+			],
+			[
+				"can",
+				"can't	(train.rb)"
+			],
+			[
+				"number",
+				"number"
+			],
+			[
+				"tra",
+				"trains"
+			],
+			[
+				"req",
+				"require_relative	(train.rb)"
+			],
+			[
+				"Pass",
+				"PassengerTrain	(passengertrain.rb)"
+			],
+			[
+				"trai",
+				"train_number	(cargotrain.rb)"
+			],
+			[
+				"fi",
+				"first_station"
+			],
+			[
+				"pass",
+				"passenger	(passengertrain.rb)"
+			],
+			[
+				"wagon_",
+				"wagon_number"
+			],
+			[
+				"wa",
+				"wagon_number"
+			],
+			[
+				"Wa",
+				"wagon_number"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"wago",
+				"wagon_count"
+			],
+			[
+				"wagon",
+				"wagon_list"
+			],
+			[
+				"Car",
+				"CargoWagon	(cargowagon.rb)"
+			],
+			[
+				"seats",
+				"seats"
+			],
+			[
+				"ca",
+				"capacity"
+			],
+			[
+				"w",
+				"weight"
+			],
+			[
+				"i",
+				"index"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"train",
+				"train_number"
+			],
+			[
+				"Cargo",
+				"CargoTrain	(cargotrain.rb)"
+			],
+			[
+				"sea",
+				"seats"
+			],
+			[
+				"si",
+				"size"
+			],
+			[
+				"dele",
+				"delete_at	(train.rb)"
+			],
+			[
+				"max",
+				"max_seat"
+			],
+			[
+				"to",
+				"to_a	(train.rb)"
+			],
+			[
+				"wag",
+				"wagon_num_p"
+			],
+			[
+				"det",
+				"detach"
+			],
+			[
+				"spe",
+				"speed"
+			],
+			[
+				"speed_",
+				"speed_brake"
+			],
+			[
+				"spee",
+				"speed_accelerate"
+			],
+			[
+				"tr",
+				"train_number"
+			],
+			[
+				"tota",
+				"total_item"
+			],
+			[
+				"v",
+				"value	(months.rb)"
+			],
+			[
+				"eac",
+				"each	(calc_2numbers.rb)"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"wh",
+				"when	when …"
+			],
+			[
+				"da",
+				"day"
+			],
+			[
+				"month",
+				"days_in_month"
+			],
+			[
+				"un",
+				"until	(calc_num_until.rb)"
+			],
+			[
+				"whi",
+				"while	(calc_num_while.rb)"
+			],
+			[
+				"равно",
+				"равнобедренный"
+			],
+			[
+				"в",
+				"вычилить"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/qoob/ROR/README.md",
+			"settings":
+			{
+				"buffer_size": 50,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 477.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/qoob/ROR/my_habrababr",
+		"/home/qoob/ROR/my_habrababr/vendor",
+		"/home/qoob/ROR/my_habrababr/vendor/assets"
+	],
+	"file_history":
+	[
+		"/home/qoob/ROR/my_habrababr/tmp/pids/server.pid",
+		"/home/qoob/ROR/my_habrababr/README.md",
+		"/home/qoob/ruby/homework/11_exercise/testpage1.html",
+		"/home/qoob/ruby/homework/11_exercise/testpage2.html",
+		"/home/qoob/ruby/homework/11_exercise/testpage3.html",
+		"/home/qoob/ruby/homework/11_exercise/tutorial.html",
+		"/home/qoob/ruby/homework/11_exercise/testpage.html",
+		"/home/qoob/ruby/homework/08_exercise/block.rb",
+		"/home/qoob/ruby/homework/08_exercise/train.rb",
+		"/home/qoob/ruby/homework/09_exercise/modul.rb",
+		"/home/qoob/ruby/homework/08_exercise/station.rb",
+		"/home/qoob/ruby/homework/09_exercise/validation.rb",
+		"/home/qoob/ruby/homework/09_exercise/my_irb.rb",
+		"/home/qoob/ruby/homework/07_exercise/main.rb",
+		"/home/qoob/ruby/homework/07_exercise/passengerwagon.rb",
+		"/home/qoob/ruby/homework/07_exercise/cargowagon.rb",
+		"/home/qoob/ruby/homework/07_exercise/passengertrain.rb",
+		"/home/qoob/ruby/homework/07_exercise/cargotrain.rb",
+		"/home/qoob/ruby/homework/07_exercise/wagon.rb",
+		"/home/qoob/ruby/homework/07_exercise/instance_counter.rb",
+		"/home/qoob/ruby/homework/07_exercise/station.rb",
+		"/home/qoob/ruby/homework/06_exercise/train.rb",
+		"/home/qoob/ruby/homework/06_exercise/station.rb",
+		"/home/qoob/ruby/homework/06_exercise/instance_counter.rb",
+		"/home/qoob/ruby/homework/06_exercise/wagon.rb",
+		"/home/qoob/ruby/homework/06_exercise/copyright.rb",
+		"/home/qoob/ruby/homework/05_exercise/main.rb",
+		"/home/qoob/ruby/homework/05_exercise/passengertrain.rb",
+		"/home/qoob/ruby/homework/05_exercise/cargotrain.rb",
+		"/home/qoob/ruby/homework/05_exercise/train.rb",
+		"/home/qoob/ruby/homework/05_exercise/route.rb",
+		"/home/qoob/ruby/homework/05_exercise/station.rb",
+		"/home/qoob/ruby/homework/05_exercise/wagon.rb",
+		"/home/qoob/ruby/homework/05_exercise/passengerwagon.rb",
+		"/home/qoob/ruby/homework/05_exercise/cargowagon.rb",
+		"/home/qoob/ruby/homework/05_exercise/toute.rb",
+		"/home/qoob/ruby/homework/train.rb",
+		"/home/qoob/ruby/homework/04_exercise/rzd.rb",
+		"/home/qoob/ruby/homework/03_exercise/student_rating.rb",
+		"/home/qoob/ruby/homework/03_exercise/vowels.rb",
+		"/home/qoob/ruby/homework/03_exercise/months.rb",
+		"/home/qoob/ruby/homework/03_exercise/date_of_year.rb",
+		"/home/qoob/ruby/homework/03_exercise/shop.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_even.num.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_2numbers.rb",
+		"/home/qoob/ruby/homework/03_exercise/test.rb",
+		"/home/qoob/ruby/homework/03_exercise/fibonacci.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_factorial.rb",
+		"/home/qoob/ruby/homework/03_exercise/array_5.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_degree.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_num_until.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_even_num.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_num_each.rb",
+		"/home/qoob/ruby/homework/02_exercise!/discrim.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_num_while.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_num_for.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_num_whil.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_num_whill.rb",
+		"/home/qoob/ruby/homework/02_exercise!/day_of_year.rb",
+		"/home/qoob/ruby/homework/02_exercise/year.rb",
+		"/home/qoob/ruby/homework/02_exercise!/Discrim.rb",
+		"/home/qoob/ruby/homework/02_exercise!/weekday.rb",
+		"/home/qoob/ruby/lessons/04_lesson/loop.rb",
+		"/home/qoob/ruby/homework/02_exercise/triangle_pifagor.rb",
+		"/home/qoob/ruby/homework/03_exercise/calc_num.rb",
+		"/home/qoob/ruby/lessons/calc_l3.rb",
+		"/home/qoob/ruby/homework/02_exercise/weekday.rb",
+		"/home/qoob/ruby/homework/02_exercise/triangle_case.rb",
+		"/home/qoob/ruby/homework/02_exercise/even_odd.rb",
+		"/home/qoob/ruby/lessons/perimeter_l3.rb",
+		"/home/qoob/ruby/lessons/01_03.rb",
+		"/home/qoob/ruby/lessons/ideal_weight_l3.rb",
+		"/home/qoob/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/qoob/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/qoob/ruby/note_true_false.txt",
+		"/home/qoob/ruby/test/01_exercise/ideal_weight.rb",
+		"/home/qoob/ruby/test/01_exercise/ideal_weigt.rb",
+		"/home/qoob/ruby/test/01_exercise/ideal_weihgt.rb",
+		"/home/qoob/ruby/lessons/03e_03l.rb",
+		"/home/qoob/ruby/lessons/02e_03l.rb",
+		"/home/qoob/ruby/lessons/03e_03.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"wagon_amount",
+			"capacity",
+			"  \n",
+			"  attr_reader :train_type",
+			"print"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/qoob/ROR/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 50,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "my_habrababr.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

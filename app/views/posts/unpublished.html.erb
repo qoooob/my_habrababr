@@ -1,0 +1,10 @@
+<tr>
+  <td><%= link_to t('.newpost'), new_post_path, class: 'btn btn-large' %></td>
+  <td><%= link_to t('.root'), posts_path, class: 'btn btn-large' %></td>
+</tr>
+
+<h1><%= @title %></h1>
+
+<%= render @posts %>
+
+<br>

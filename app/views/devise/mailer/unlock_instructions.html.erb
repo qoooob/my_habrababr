@@ -1,0 +1,7 @@
+<p>Привет <%= @resource.email %>!</p>
+
+<p>Ваш акаунт заблокирован.</p>
+
+<p>Перейдите по ссылке, чтобы его разблокировать:</p>
+
+<p><%= link_to t('.subject'), unlock_url(@resource, unlock_token: @token) %></p>
