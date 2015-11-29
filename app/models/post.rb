@@ -14,8 +14,8 @@ class Post < ActiveRecord::Base
   scope :reverse_order, ->(order) {order(created_at: order)}
   scope :published, -> {where(published: true)}
   scope :unpublished, -> {where(published: false)}
-  scope :moderated, -> { where(moderated: true) }
-  scope :unmoderated, -> { where(moderated: false) }
+  scope :approved, -> { where(approved: true) }
+  scope :rejected, -> { where(approved: false) }
 
   after_create :subscribe_author
   #after_update :change_moderate_state

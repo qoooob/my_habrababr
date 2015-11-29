@@ -12,10 +12,10 @@
   <tbody>
   <% @categories.each do |category| %>
       <tr>
-        <td><%= category.name %></td>
-        <td><%= link_to t('common.show'),  category %></td>
-        <td><%= link_to t('common.edit'), edit_admin_category_path(category) %></td>
-        <td><%= link_to t('common.back'), [:admin, category], method: :delete, data: { confirm: 'Вы уверены?' } %></td>
+        <td>(<%= category.name %>) -    </td>
+        <td><%= link_to t('common.show'),  category %> | </td>
+        <td><%= link_to t('common.edit'), edit_admin_category_path(category) %> | </td>
+        <td><%= link_to t('common.delete'), [:admin, category], method: :delete, data: { confirm: 'Вы уверены?' } %></td>
       </tr>
   <% end %>
   </tbody>

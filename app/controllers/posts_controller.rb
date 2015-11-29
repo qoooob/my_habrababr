@@ -9,8 +9,7 @@ class PostsController < ApplicationController
   end
 
   def unpublished
-    @posts = Post.reverse_order(:desc).unpublished.all
-    @posts = @posts.find_by_user_id(current_user) unless user_admin?
+    @posts = current_user.posts.unpublished.all
     @title = 'Доступные черновики'
   end
 

@@ -44,3 +44,15 @@ ru:
         title: "Редактирование категорий"
       form:
         submit: "Сохранить"
+  layouts:
+    admin:
+      enter: "Войти"
+      exit: "Выйти"
+      category: "Категории"
+      users: "Пользователи"
+      title: "MyHabrababr"
+    application:
+      enter: "Войти"
+      exit: "Выйти"
+      admin: "Админка"
+      title: "MyHabrababr"

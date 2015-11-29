@@ -20,7 +20,7 @@ class User < ActiveRecord::Base
   end
 
   def subscription_for(post)
-    @subscriptions ||= subscriptions.where(post: post).first
+    @subscription ||= subscriptions.where(post: post).first
   end
 
   def subscribe_to(post)

@@ -2,8 +2,9 @@
   <div class="row">
     <h2><%= link_to post.title, post %></h2>
   </div>
-
-  <%= render post.categories %>
+<div class="row">
+ <p>Категории: <%= render post.categories %></p>
+</div>
 
   <div class="row">
     <p><%= truncate(post.body, length: 100) %></p>

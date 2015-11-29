@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     patch :hide, on: :member
 
     resources :comments, only: [:edit, :create, :update, :destroy], shallow: true
-    resource :subscriptions, only: [:create, :destroy], shallow: true
+    resources :subscriptions, only: [:create, :destroy], shallow: true
   end
 
   resources :categories, only: [:show]
@@ -16,6 +16,11 @@ Rails.application.routes.draw do
   namespace :admin do
     resources :categories
     resources :users, only: [:index, :destroy]
+    resources :posts do
+      patch :approve, on: :member
+      patch :reject, on: :member
+      get :index, on: :collection
+    end
   end
 
   root 'posts#index'
